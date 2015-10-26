@@ -23,7 +23,7 @@ def remove_duplicates(original_list):
     unique_list = []
     [unique_list.append(obj) for obj in original_list if obj not in unique_list]
     unique_list.sort()
-    print unique_list
+    return unique_list
 
 remove_duplicates(categories)
 
